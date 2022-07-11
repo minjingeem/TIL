@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+<input type="text" name="username" id="username" value="John Lee"/>
+<div id="view"></div>
+<img src="../img/01.png" width = "100" height="200" id="i"/>
+
+<script>
+	// 스타일 시트 
+	document.getElementById("username").style.color= "orange";
+	document.getElementById("username").style.backgroundColor = '#ddd';
+	
+	var dom = document.getElementById("view");
+	dom.style.border = "1px solid red";
+	dom.style.width="300px";
+	dom.style.height="200px";
+	
+	// 태그 속성 
+	var name = document.getElementById("username").value;
+	document.write("name="+name);
+	document.getElementById("username").value="MJ";
+	document.getElementById("i").src="../img/03.gif";
+	
+	document.getElementById("username").type="checkbox";
+	
+	var tag = "<h1> javascript에서 태그 삽입 </h1>";
+	tag += "<ol><li>이탕탕</li><li>깅밍딩</li></ol>";
+	
+	document.getElementById("view").innerHTML = tag ;
+	
+</script>
+
+</body>
+</html>
