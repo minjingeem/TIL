@@ -82,3 +82,55 @@ public class TestController {
 
 
 ![Screen Shot 2022-08-22 at 21.39.07](/Users/minjinkim/Desktop/Screen Shot/Screen Shot 2022-08-22 at 21.39.07.png)
+
+
+
+
+
+
+
+### Views 이해하기
+
+--------------------
+
+1. Test 프로젝트의 src > main 폴더에 webapp > WEB-INF > views 폴더를 생성하고 <b>ex1.jsp</b> , <b>ex2.jsp</b> 파일 생성
+
+<img src="../../Desktop/Screen Shot/Screen Shot 2022-08-22 at 23.49.56.png" alt="Screen Shot 2022-08-22 at 23.49.56" style="zoom:50%;" />
+
+
+
+
+
+2. 생성된 각 jsp 파일에 파일명을 표기해준다. (뷰화면 확인용으로)
+
+![Screen Shot 2022-08-22 at 23.51.41](../../Desktop/Screen Shot/Screen Shot 2022-08-22 at 23.51.41.png)
+
+
+
+
+
+3. TestController에 <b>ex2</b>, <b>ex3</b> 메소드를 생성해준다. (String, 반환형)
+
+<img src="../../Desktop/Screen Shot/Screen Shot 2022-08-22 at 23.52.47.png" alt="Screen Shot 2022-08-22 at 23.52.47" style="zoom:50%;" />
+
+
+
+
+
+4. 결과 : 
+
+<img src="../../Desktop/Screen Shot/Screen Shot 2022-08-22 at 23.53.20.png" alt="Screen Shot 2022-08-22 at 23.53.20" style="zoom: 50%;" />
+
+<img src="../../Desktop/Screen Shot/Screen Shot 2022-08-22 at 23.53.30.png" alt="Screen Shot 2022-08-22 at 23.53.30" style="zoom:50%;" />
+
+
+
+<img src="../../Desktop/Screen Shot/Screen Shot 2022-08-22 at 23.53.40.png" alt="Screen Shot 2022-08-22 at 23.53.40" style="zoom:50%;" />
+
+
+
+
+
+5. 스프링부트의 콘솔에서 메소드 3개 모두 실행된 것을 확인할 수 있다.
+
+<img src="../../Desktop/Screen Shot/Screen Shot 2022-08-22 at 23.54.09.png" alt="Screen Shot 2022-08-22 at 23.54.09" style="zoom:50%;" />
