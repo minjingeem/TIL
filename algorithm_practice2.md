@@ -72,5 +72,5 @@ public class Main{
 
 <h5>Thoughts</h5>
 
-- 응용이 가능한지?
+- 응용이 가능한지??
 
