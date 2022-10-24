@@ -1,6 +1,6 @@
 <h3>Algorithm Practice: Day 3</h3> 
 
-10.20.22
+10.21.22
 
 -------
 
