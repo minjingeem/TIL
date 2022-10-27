@@ -24,19 +24,15 @@ import java.util.*;
 public class Main{
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
+        int chessPiece[] = {1, 1, 2, 2, 2, 8};
         int piece;
-        int[] chessPiece = {2, 1, 2, 1, 2, 1};
-        int[] check = new int[6];
-        
-        for(int i=0; i<chessPiece.length; i++){
+        for(int i = 0; i < chessPiece.length; i++ ){
             piece = sc.nextInt();
-            
-            if(piece<=0){
-                check[i] = chessPiece[i]+piece;
+            if(piece>0){
+                System.out.print(chessPiece[i]-piece+"");
             }else{
-                check[i] = chessPiece[i]-piece;
+                System.out.print(chessPiece[i]+piece+"");
             }
-            System.out.print(check[i]+"");
         }
     }
 }
