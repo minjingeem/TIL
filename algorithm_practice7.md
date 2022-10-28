@@ -1,12 +1,12 @@
 <h3>Algorithm Practice: Day 7</h3> 
 
-10.20.27
+10.27.22
 
 -------
 
 <h5>Basic Level</h5>
 
-1.  예제 출력 1 복사
+1.  예제 출력
 
    ```
    \    /\
