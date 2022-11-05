@@ -1,6 +1,6 @@
-<h3>Algorithm Practice: Day 12</h3> 
+<h3>Algorithm Practice: Day 13</h3> 
 
-11.4.22
+11.5.22
 
 -------
 
@@ -48,29 +48,29 @@ public class Main{
     M = sc.nextInt();
     
     if(H == 0){ // H == 0, M == 30 / H == 0, M == 0 
-      if( M<45 | M == 0){
+      if( M<45){ 
         H = 23;
         M = M+60-45;
-        System.out.println("%d %d",H,M);
+        System.out.println(H + " " + M);
       }else{ // H == 0, M == 45 
         H = H;
         M = M-45;
-        System.out.println("%d %d",H,M);
+        System.out.println(H + " " + M);
       }
     }else if(H > 0){ // H = 1, M = 30 / H != 0, M = 0
-      if( M<45 | M == 0){
+      if( M<45){
         H = H-1;
         M= M+60-45;
-        System.out.println("%d %d",H,M);
+        System.out.println(H + " " + M);
       }else{ // H>0, M == 45
         H = H;
         M = M-45;
-        System.out.println("%d %d",H,M);
+        System.out.println(H + " " + M);
       }
     }else{ // H = 0, M >= 45 / H!= 0, M >= 45 
       H = H;
       M = M-45;
-      System.out.println("%d %d",H,M);
+      System.out.println(H + " " + M);
     }
   }
 }
@@ -78,5 +78,5 @@ public class Main{
 
 <h5>Thoughts</h5>
 
-- 주말에 고민해보기. 풀어보고 논의해보기..
+- 드디어 맞췄다!! 그동안 문제에서 원하는 출력형식이 틀려서 틀렸었다!ㅠㅠ 기쁘다 해냈다!
 
