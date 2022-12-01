@@ -46,10 +46,10 @@ SpringBoot에서 사용되는 MVC Pattern을 알아보자.
 
 ```ex1
 @Controller
-@RequestMapping("/test")
+@RequestMapping("/test") 
 public class TestController {
 
-	@GetMapping("/ex1")
+	@GetMapping("/ex1") // "/ex1"라는 url 주소와 메소드를 mapping 한다. 즉, ex1 이라는 url 주소로 들어오면 매핑된 메소드가 실행됨.
 	public void ex() { 
 		System.out.println("ex1 메소드 실행됨....");
 	}

@@ -97,12 +97,8 @@ public class Main {
     BufferedWriter bw = new BufferedWriter(new InputStreamWriter(System.out));
     
     int N = Integer.parseInt(br.readLine());
-    if(N < 10){
-      
-    }else{
-      
-    }
-   
+    
+    
   }
 }
 ```
@@ -111,10 +107,6 @@ public class Main {
 
 
 
-
-
-
-
 <b>Thoughts</b>
 
-- 못품
+- 못품 ㅠㅠ

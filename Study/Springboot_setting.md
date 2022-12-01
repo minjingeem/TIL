@@ -4,17 +4,17 @@
 
 1. spring.io/tools 접속 후 tool 다운.
 
-![Screen Shot 2022-07-28 at 9.47.26](/Users/minjinkim/Desktop/Screen Shot 2022-07-28 at 9.47.26.png)
+![Screen Shot 2022-07-28 at 9.47.26](/Users/minjinkim/Desktop/Screen Shot/Screen Shot 2022-07-28 at 9.47.26.png)
 
 
 
 2. applications로 drag 해준다. 
 
-![Screen Shot 2022-07-28 at 9.48.54](/Users/minjinkim/Desktop/Screen Shot 2022-07-28 at 9.48.54.png)
+![Screen Shot 2022-07-28 at 9.48.54](/Users/minjinkim/Desktop/Screen Shot/Screen Shot 2022-07-28 at 9.48.54.png)
 
 3. SpringToolSuite4 오픈 후 workspace 설정
 
-![Screen Shot 2022-07-28 at 10.07.07](/Users/minjinkim/Desktop/Screen Shot 2022-07-28 at 10.07.07.png)
+![Screen Shot 2022-07-28 at 10.07.07](/Users/minjinkim/Desktop/Screen Shot/Screen Shot 2022-07-28 at 10.07.07.png)
 
 
 
@@ -22,7 +22,7 @@
 
 4. Spring boot 프로젝트 시작하기 
 
-![Screen Shot 2022-07-28 at 10.11.53](/Users/minjinkim/Desktop/Screen Shot 2022-07-28 at 10.11.53.png)
+![Screen Shot 2022-07-28 at 10.11.53](/Users/minjinkim/Desktop/Screen Shot/Screen Shot 2022-07-28 at 10.11.53.png)
 
 
 
@@ -37,25 +37,25 @@
 
    SpringBootServletInitializer를 상속 받는 다는 것은 tomcat 같은 Servlet Container 환경에서Spring Boot 애플리케이션 동작 가능 하도록 웹 애플리케이션 컨텍스트를 구성한다는 의미.
 
-![Screen Shot 2022-07-28 at 10.16.16](/Users/minjinkim/Desktop/Screen Shot 2022-07-28 at 10.16.16.png)
+![Screen Shot 2022-07-28 at 10.16.16](/Users/minjinkim/Desktop/Screen Shot/Screen Shot 2022-07-28 at 10.16.16.png)
 
 
 
 4-2 dependencies에 framework 추가 후 완료.
 
-![Screen Shot 2022-07-28 at 10.21.14](/Users/minjinkim/Desktop/Screen Shot 2022-07-28 at 10.21.14.png)
+![Screen Shot 2022-07-28 at 10.21.14](/Users/minjinkim/Desktop/Screen Shot/Screen Shot 2022-07-28 at 10.21.14.png)
 
 
 
 5. 파일 생성
 
- ![Screen Shot 2022-07-28 at 10.31.58](/Users/minjinkim/Desktop/Screen Shot 2022-07-28 at 10.31.58.png)
+ ![Screen Shot 2022-07-28 at 10.31.58](/Users/minjinkim/Desktop/Screen Shot/Screen Shot 2022-07-28 at 10.31.58.png)
 
 
 
 6. build.gradle에 프레임워크추가
 
-![Screen Shot 2022-07-28 at 10.40.28](/Users/minjinkim/Desktop/Screen Shot 2022-07-28 at 10.40.28.png)
+![Screen Shot 2022-07-28 at 10.40.28](/Users/minjinkim/Desktop/Screen Shot/Screen Shot 2022-07-28 at 10.40.28.png)
 
 
 
@@ -90,7 +90,7 @@
 
 7. refresh 꼭 해주기 !
 
-![Screen Shot 2022-07-28 at 10.41.58](/Users/minjinkim/Desktop/Screen Shot 2022-07-28 at 10.41.58.png)
+![Screen Shot 2022-07-28 at 10.41.58](/Users/minjinkim/Desktop/Screen Shot/Screen Shot 2022-07-28 at 10.41.58.png)
 
 
 
@@ -98,23 +98,23 @@
 
 
 
-![Screen Shot 2022-07-28 at 11.11.59](/Users/minjinkim/Desktop/Screen Shot 2022-07-28 at 11.11.59.png)
+![Screen Shot 2022-07-28 at 11.11.59](/Users/minjinkim/Desktop/Screen Shot/Screen Shot 2022-07-28 at 11.11.59.png)
 
 
 
-![Screen Shot 2022-07-28 at 10.49.03](/Users/minjinkim/Desktop/Screen Shot 2022-07-28 at 10.49.03.png)
+![Screen Shot 2022-07-28 at 10.49.03](/Users/minjinkim/Desktop/Screen Shot/Screen Shot 2022-07-28 at 10.49.03.png)
 
 
 
 10. Help > Eclipse Marketplace
 
-![Screen Shot 2022-07-28 at 11.16.24](/Users/minjinkim/Desktop/Screen Shot 2022-07-28 at 11.16.24.png)
+![Screen Shot 2022-07-28 at 11.16.24](/Users/minjinkim/Desktop/Screen Shot/Screen Shot 2022-07-28 at 11.16.24.png)
 
 
 
 11. web developer를 검색하고 Eclipse Enterprise Java and Web Developer Tools 3.26 다운 
 
-![Screen Shot 2022-07-28 at 11.17.50](/Users/minjinkim/Desktop/Screen Shot 2022-07-28 at 11.17.50.png)
+![Screen Shot 2022-07-28 at 11.17.50](/Users/minjinkim/Desktop/Screen Shot/Screen Shot 2022-07-28 at 11.17.50.png)
 
 
 

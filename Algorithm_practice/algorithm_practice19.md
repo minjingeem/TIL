@@ -52,26 +52,31 @@
    ```
 
 ```java
-import java.io.*; // java.io.bufferReader; java.io.bufferWriter; // java.io.*;
+import java.io.*;
+import java.util.*;
 
 public class Main{
-  public static void main(String[] args){
-   BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-   BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
-   int T,A,B;
+  public static void main(String[] args) throws IOException{
+    BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+    BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
+  
+    int T = Integer.parseInt(br.readLine());
     
-   try{// 실행문
-     
-   }catch(Exception e){// 실행문 이외의 예외가 있을때 실행해줄 문장
-     
-   }
-
+    for(int i =1; i <= T; i++){
+      StringTokenizer st = new StringTokenizer(br.readLine()); //데이터 가공
+      int A = Integer.parseInt(st.nextToken());
+      int B = Integer.parseInt(st.nextToken());
+      
+      bw.write((A+B)+"\n");
+    }
+    bw.flush();
   }
 }
 ```
 
 ````java
 import java.io.*;
+import java.util.*;
 
 public class Main{
   public static void main(String[] args) throws IOException{
@@ -81,6 +86,7 @@ public class Main{
     StringTokenizer st = new StringTokenizer(br.readLine()); //데이터 가공
     
     int T = Integer.parseInt(st.nextToken());
+    
     for(int i =1; i <= T; i++){
       int A = Integer.parseInt(st.nextToken());
       int B = Integer.parseInt(st.nextToken());
@@ -94,13 +100,15 @@ public class Main{
 
 
 
-
+**
 
 <b>Thoughts</b>
 
 - Scanner는 키보드 입력이 바로 프로그램으로 전달된다. 하지만 I/O가 자주 일어나면 속도가 느려진다. 
 - 그렇기때문에 중간에 Buffer를 두어 한번에 묶어 전달하는 것이 더 효율적이고 빠르다.
 - Buffer는 입력을 String으로 받는다
+- ``InputStreamReader``  는 byte를 읽어서 character로 변환해준다. 
+- ``OutputStreamWriter`` 는 character를 읽어서 byte로 변환해준다.
 - StringTokenizer는 사용자가 지정한 방식으로 String을 Token화 하여 데이터를 가공한다.(문자열의 제일 작은단위 Token으로 쪼갠다. 자른다.)
   - Ex) 해당 문제에서는 BufferedReader로 읽어온 String 단위별로 자른다.
 - nextToken( ) 은 readLine( ) 을 통해 입력받은 값을 공백 단위로 구분하여 순서대로 호출한다. 

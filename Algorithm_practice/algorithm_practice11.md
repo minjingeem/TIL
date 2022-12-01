@@ -34,6 +34,8 @@
 
 첫째 줄에 상근이가 창영이의 방법을 사용할 때, 설정해야 하는 알람 시간을 출력한다. (입력과 같은 형태로 출력하면 된다.)
 
+
+
 ```java
 import java.util.*;
 
@@ -49,21 +51,26 @@ public class Main{
       if( M<45 | M == 0){
         H = 23;
         M = M+60-45;
-        System.out.println("H");
-        System.out.println("M");
+        System.out.println("%d %d",H,M);
+      }else{ // H == 0, M == 45 
+        H = H;
+        M = M-45;
+        System.out.println("%d %d",H,M);
       }
     }else if(H > 0){ // H = 1, M = 30 / H != 0, M = 0
       if( M<45 | M == 0){
         H = H-1;
         M= M+60-45;
-        System.out.println("H");
-        System.out.println("M");
+        System.out.println("%d %d",H,M);
+      }else{ // H>0, M == 45
+        H = H;
+        M = M-45;
+        System.out.println("%d %d",H,M);
       }
     }else{ // H = 0, M >= 45 / H!= 0, M >= 45 
       H = H;
       M = M-45;
-      System.out.println("H");
-      System.out.println("M");
+      System.out.println("%d %d",H,M);
     }
   }
 }

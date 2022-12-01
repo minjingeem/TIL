@@ -78,17 +78,21 @@ public class Main{
        H = sc.nextInt();
        M = sc.nextInt();
        
-       if(H == 0 && M<45){ // H = 1, M =30 1:30
-         H = 23;
-         M = M+60-45;
-         System.out.println("H");
-         System.out.println("M");
-       }else if(H != 0 && M<45){
-         H = H-1;
-         M= M+60-45;
-         System.out.println("H");
-         System.out.println("M");
-       }else{
+       if(H == 0){ // H == 0, M == 30 / H == 0, M == 0 
+         if( M<45 | M == 0){
+           H = 23;
+           M = M+60-45;
+           System.out.println("H");
+           System.out.println("M");
+         }
+       }else if(H > 0){ // H = 1, M = 30 / H != 0, M = 0
+         if( M<45 | M == 0){
+           H = H-1;
+           M= M+60-45;
+           System.out.println("H");
+           System.out.println("M");
+         }
+       }else{ // H = 0, M >= 45 / H!= 0, M >= 45 
          H = H;
          M = M-45;
          System.out.println("H");
