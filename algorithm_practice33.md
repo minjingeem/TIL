@@ -1,6 +1,6 @@
-<h3>Algorithm Practice: Day 30, 31, 32</h3> 
+<h3>Algorithm Practice: Day 30, 31, 32, 33</h3> 
 
-**11.29.22** , 11.30.22, 12.01.22                                    																														
+**11.29.22** , 11.30.22, 12.01.22, 12.02.22                                    																														
 
 -------
 
@@ -48,6 +48,7 @@ https://www.webucator.com/article/how-to-use-systemin-in-java/
 
 - <i><b>System.in</b></i> 
   - 키보드에서 Input Stream을 제공한다 -> 키보드로부터 오는 데이터를 input받을 수 있는 Stream을 만든다.
+  - System이라는 class안에 in이라는 attribute(variable)
 - <i><b>InputStreamReader</b></i>
   - 키보드로부터 오는 데이터 Stream을 읽는다.
 - <i><b>BufferedReader</b></i>
