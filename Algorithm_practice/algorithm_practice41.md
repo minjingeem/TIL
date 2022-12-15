@@ -1,14 +1,14 @@
-<h3>Algorithm Practice: Day 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40</h3> 
+### Algorithm Practice: Day 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41
 
-11.29.22 , 11.30.22, 12.01.22, 12.02.22, 12.05.22, 12.06.22, 12.07.22, 12.08.22, 12.09.22, 12.13.22, 12.14.22                                   																														
 
--------
+
+11.29.22 , 11.30.22, 12.01.22, 12.02.22, 12.05.22, 12.06.22, 12.07.22, 12.08.22, 12.09.22, 12.13.22, 12.14.22, 12.15.22                                  																														
 
 입출력과 사칙연산, 조건문, 반복문 복습
 
 
 
-```java
+```
 import java.util.*;
 
 public class Q2557 {
@@ -21,7 +21,7 @@ public class Q2557 {
 
 
 
-```java
+```
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.io.IOException;
@@ -32,9 +32,9 @@ public class Main {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
       
         //StringTokenizer st = new StringTokenizer(br.readLine()," ");
-      	String str = br.readLine();
-      	StringTokenizer st = new StringTokenizer(str, " ")// 객체 생성 할 때 StringTokenizer( "문자열" , 구분자 )
-      	
+        String str = br.readLine();
+        StringTokenizer st = new StringTokenizer(str, " ")// 객체 생성 할 때 StringTokenizer( "문자열" , 구분자 )
+        
         
         int A = Integer.parseInt(st.nextToken());
         int B = Integer.parseInt(st.nextToken());
@@ -46,12 +46,12 @@ public class Main {
 
 https://www.webucator.com/article/how-to-use-systemin-in-java/
 
-- <i><b>System.in</b></i> 
+- ***System.in*** 
   - 키보드에서 Input Stream을 제공한다 -> 키보드로부터 오는 데이터를 input받을 수 있는 Stream을 만든다.
   - System이라는 class안에 in이라는 attribute(variable)
-- <i><b>InputStreamReader</b></i>
+- ***InputStreamReader***
   - 키보드로부터 오는 데이터 Stream을 읽는다.
-- <i><b>BufferedReader</b></i>
+- ***BufferedReader***
   - BufferedReader 객체는 input을 버퍼에 담는다
 
 
@@ -64,7 +64,7 @@ Attributes는 Class 안에 선언된 변수
 
 
 
-```java
+```
 import java.util.*;
 
 public class Main {
@@ -81,7 +81,7 @@ public class Main {
 
 
 
-```java
+```
 import java.io.IOException;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
@@ -107,7 +107,7 @@ public class Main{
 
 
 
-```java
+```
 import java.io.IOException;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
@@ -132,7 +132,7 @@ public class Main {
 
 
 
-```java
+```
 import java.io.IOException;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
@@ -163,7 +163,7 @@ public class Main {
 
 2884번: 알람시계
 
-```java
+```
 import java.io.IOException;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
@@ -196,16 +196,16 @@ public class Main {
 }
 ```
 
-* BufferedReader를 사용할때에는 입력(Input) 형태를 잘 확인해야 한다.
+- BufferedReader를 사용할때에는 입력(Input) 형태를 잘 확인해야 한다.
 
-  ```java
+  ```
   1
   2
   ```
 
   와
 
-  ```java
+  ```
   1 2
   ```
 
@@ -215,7 +215,7 @@ public class Main {
 
 2525번: 오븐시계
 
-```java
+```
 import java.io.IOException;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
@@ -252,7 +252,7 @@ public class Main {
 
 2480번: 주사위 3개
 
-```java
+```
 import java.io.IOException;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
@@ -298,7 +298,7 @@ public class Main {
 
 8393번: 합
 
-```java
+```
 import java.io.IOException;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
@@ -316,13 +316,13 @@ public class Main {
 }
 ```
 
-- ``x += y``  는 ``x = x + y``와 같다.
+- `x += y`  는 `x = x + y`와 같다.
 
 
 
 25304번: 영수증
 
-```java
+```
 import java.io.IOException;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
@@ -353,7 +353,7 @@ public class Main {
 
 15552번: 빠른 A+B
 
-```java
+```
 import java.io.IOException;
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -383,7 +383,7 @@ public class Main {
 
 2438번: 별찍기
 
-```java
+```
 import java.io.IOException;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
@@ -398,7 +398,7 @@ public class Main {
             }
             System.out.println(); // *
                                   // **
-          												// ****
+                                  // ****
         }
     }
 }
@@ -420,7 +420,7 @@ public class Main {
 
 2439: 별찍기-2
 
-```java
+```
 import java.io.IOException;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
@@ -444,4 +444,44 @@ public class Main {
 
 - For 구문 쉽게 이해하기: "~만큼 block of code를 반복할거야"
 
-- 
+
+
+1110번 
+
+```
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
+
+public class Java1110 {
+    public static void main(String[] args) throws IOException {
+        // 1. 정수 n을 입력받는다.
+        // 2-1. 입력 받은 n/10 십의자리 계산.
+        // 2-2. 입력 받은 n%10 일의자리 계산
+        // 3-1. 계산한 십의자리와 일의자리를 더하고 변수(x)에 담는다.
+        // 3-2. x에 담은 숫자를 다시 %10 하여 일의자리 계산.
+        // 4-1. (n%10)*10 + x
+
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        System.out.println("숫자를 입력하세요.");
+        int n = Integer.parseInt(br.readLine());
+        int number = n;
+        int result = 0;
+        int count = 0;
+
+        while(result != n) {
+            int a = number/10;
+            int b = number%10;
+            int x = (a + b)%10;
+            result = (number%10)*10 + x;
+            number = result;
+            count ++;
+        }
+        System.out.println(count);
+    }
+}
+
+```
+
+- 틀림 ㅠㅠㅠㅠㅠㅠㅠㅠ 로직이 약간 틀린거 같다 연구해보기..
